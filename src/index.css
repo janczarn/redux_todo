@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid green;
+  font-size: 150%;
+}
+
+.itemsContainer {
+  border: 2px solid red;
+  margin: 2px;
+  padding: 2px;
+}
+
+.items {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.items .item .toggle, .items .item .delete {
+  width: 1px;
+  white-space: nowrap;
+}
+
+.items .item.completed .text {
+  text-decoration: line-through;
+}
+
+.items td {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.items .item {
+  border: 2px solid blue;
+}
+
+.entry {
+  display: flex;
+  margin: 2px;
+  margin-top: 1em;
+  border: 2px solid yellow;
+}
+
+.entry input {
+  flex: 1 1 auto;
+}
+
+input, table, button {
+  font-size: 100%;
+}
